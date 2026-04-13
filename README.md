@@ -73,14 +73,4 @@ The tracking loop and render loop are independent `requestAnimationFrame` loops 
 - **Expression response** — `jawOpen` blendshape stretches mask height slightly; `eyeBlink` is available for future use.
 
 ---
-
-## TODO / Next Steps
-
-- [ ] **Better UV mapping** — use a face mesh warp (affine or thin-plate-spline) to map the mask texture to individual landmark triangles for a true face-conform fit.
-- [ ] **Mouth region deformation** — cut the mouth area out of the mask and deform it with jaw-open / lip corner blendshapes.
-- [ ] **Eye tracking** — blink detection driving eyelid animation on the mask.
-- [ ] **Multiple expressions** — map the full 52 MediaPipe blendshapes to morph targets on the mask.
-- [ ] **3D avatar mode** — replace Canvas 2D with Three.js and load a GLTF head model driven by the facial transformation matrix.
-- [ ] **OBS / virtual camera** — pipe the canvas output through a virtual camera (e.g. OBS Browser Source + v4l2loopback on Linux, or OBS macOS virtual camera).
-- [ ] **Multiple faces** — change `numFaces: 1` to `numFaces: N` and iterate in the renderer.
-- [ ] **Offline WASM** — bundle the MediaPipe WASM assets locally so the app works without internet.
+]
