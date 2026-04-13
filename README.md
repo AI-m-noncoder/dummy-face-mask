@@ -1,6 +1,5 @@
 <img width="1699" height="862" alt="Снимок экрана 2026-04-14 в 00 00 08" src="https://github.com/user-attachments/assets/1dadd509-a91c-499c-a61c-a3bb5a133aac" /># FaceMask AR
 
-<img width="1699" height="862" alt="Снимок экрана 2026-04-14 в 00 00 08" src="https://github.com/user-attachments/assets/b8066eaa-c07e-4eae-b0ff-2fc5b12caeeb" />
 
 A browser-based real-time face mask / AR avatar app using MediaPipe Face Landmarker and Canvas 2D. No backend required — everything runs locally in your browser.
 ---
